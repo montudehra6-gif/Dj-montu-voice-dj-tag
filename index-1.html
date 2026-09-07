@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Montu Mixer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DJ Montu Voice Tag Maker</h1>
+    <p id="status">Website ready hai!</p>
+    <button onclick="showMessage()">Click Karein</button>
+
+    <script>
+        function showMessage() {
+            document.getElementById("status").innerText = "JavaScript successfully load ho gaya hai!";
+        }
+    </script>
+
+</body>
+</html>
